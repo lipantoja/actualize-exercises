@@ -11,6 +11,7 @@ puts first_number + second_number + third_number
 # If you run the code below, it will crash due to invalid variable names. 
 # Find the invalid variable names and delete the special characters 
 # (be sure to leave the special characters in the valid variable names alone).
+
 bob7 = 50
 bob = 50
 bob = 50
