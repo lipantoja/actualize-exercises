@@ -13,10 +13,10 @@ puts first_number + second_number + third_number
 # (be sure to leave the special characters in the valid variable names alone).
 
 bob7 = 50
-bob = 50
-bob = 50
-bob = 50
+#invalid syntax error -  doesn't like number in first part of variable
+#invalid, without identifiers- seems this symbol at the end of the variable is not allowed
+@bob = 50
 bob_ = 50
 _bob = 50
-bob = 50
-bob = 50
+#invalid, without identifiers- seems this symbol at the end of the variable is not allowed
+$bob = 50
