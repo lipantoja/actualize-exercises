@@ -33,5 +33,5 @@ puts "Done!"          # 3
 
 # 1: index is 0
 # 2: 0 is not greater than 2, end loop
-# 3: puts Done
+# 3: puts Done!
 
