@@ -5,12 +5,10 @@
 # 6. Write a program that uses variables to store two words, 
 # then prints both words on the same line in all capital letters
 
-fruit = "apple"
+fruit = "grape"
 drink = " juice"
 
-fresh = fruit + drink
-puts fresh.upcase
-
+puts fruit.upcase + drink.upcase 
 # Were you able to easily solve the problem from memory?
 # If so, describe the next skill you will start to practice tomorrow.
 # If not, describe the part you got stuck on that requires more practice.
