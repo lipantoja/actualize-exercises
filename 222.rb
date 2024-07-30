@@ -4,10 +4,9 @@
 # Otherwise print "You're not Martin."
 
 puts "Please tell me your name:"
-name = gets.to_s
-special_person = "Martin" #added code to fix problem
+name = gets.chomp
 
-if name == special_person #unsure why the string "Martin" doesn't work here
+if name == "Martin" #unsure why the string "Martin" doesn't work here. Do I need to define Martin in a different way?
     puts "Hi Martin!"
 else
     puts "You're not Martin"
