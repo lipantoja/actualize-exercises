@@ -6,7 +6,7 @@
 puts "Please tell me your name:"
 name = gets.chomp
 
-if name == "Martin" #unsure why the string "Martin" doesn't work here. Do I need to define Martin in a different way?
+if name == "Martin"
     puts "Hi Martin!"
 else
     puts "You're not Martin"
@@ -20,6 +20,5 @@ if x < 5
 elsif x < 10
     puts 1
 else 
-    x < 100
     puts 2
 end
