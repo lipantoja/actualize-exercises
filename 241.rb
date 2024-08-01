@@ -7,6 +7,8 @@ pi = 3.1425
 puts pi.to_i
 
 # Were you able to easily solve the problem from memory?
+#   Was able to do this easily, able to do first try. Will continue to do variables as an exercise for
+#   this portion, will start working on other areas in deliberate practice.
 # If so, describe the next skill you will start to practice tomorrow.
 # If not, describe the part you got stuck on that requires more practice.
 
