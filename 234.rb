@@ -3,17 +3,22 @@
 # The first several comments are done for you.
 booyeah = 0                # 1
 2.times do                 # 2
-  booyeah = booyeah + 1    # 3
-  3.times do               # 4 6
-    booyeah = booyeah + 2  # 5 7
-  end                      
-end                        
-p booyeah                  # 1. booyeah is 0
-                           # 2. booyeah is now 1
-                           # 3. booyeah is now 3, second time is 5, third time is 7
-                           # 4. booyeah 7 + 1 is 8
-                           # 5. booyeah is 10, second time 12, third time is 14
-                           # 6. prints 14
+  booyeah = booyeah + 1    # 3     10
+  3.times do               # 4 6 8 11 13 15
+    booyeah = booyeah + 2  # 5 7 9 12 14 16
+  end                      #             17
+end                        #             18
+p booyeah
+                           # 1. booyeah starts off as 0
+                           # 2. booyeah is 1 at mark #3
+                           # 3. booyeah is 3 at mark #5
+                           # 4. booyeah is 5 at mark #7
+                           # 5. booyeah is 7 at mark #9
+                           # 4. booyeah is 7 + 1, making booyeah 8 at mark #10
+                           # 5. booyeah is 10 at mark #12
+                           # 6. booyeah is 12 at mark #14
+                           # 7. booyeah is 14 at mark #16
+                           # 6. prints 14 
 
 
 # QUESTION 2
