@@ -7,23 +7,6 @@ dogs = [
 ]
 
 
-# write a loop to pull the hash's key, :name (pulled from exercise 244.rb & 234.rb)
-index = 0
-3.times do 
-    dogs[0][:name]
+#pp name: at least once
+puts dogs ["name"]
 
-
-
-
-
-
-
-
-    # booyeah = 0                # 1
-    # 2.times do                 # 2
-    #   booyeah = booyeah + 1    # 3     10
-    #   3.times do               # 4 6 8 11 13 15
-    #     booyeah = booyeah + 2  # 5 7 9 12 14 16
-    #   end                      #             17
-    # end                        #             18
-    # p booyeah
