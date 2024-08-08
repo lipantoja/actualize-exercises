@@ -6,7 +6,6 @@ dogs = [
   { name: "Beethoven", breed: "Saint Bernard" }
 ]
 
-
-#pp name: at least once
-puts dogs ["name"]
+# push it into a new array push the name of the dogs into a new array (look at exercise 243.rb & 233.rb)
+  
 

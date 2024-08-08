@@ -26,3 +26,5 @@ pp word
 # Join the word together again .join
 
 # Have code grab the given word and + "ay"
+
+# Print out new string 
