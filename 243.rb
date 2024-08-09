@@ -1,6 +1,7 @@
 # QUESTION 1
 # Convert all three lines of the following code
 # to use symbols instead of strings for the hash keys.
+    # How to get a key from a hash
 product = { :name => "Jacket", :price => 49.99, :color => "red"}
 puts product["name"] # the output is Jacket
 puts product["price"] # the output is 49.99

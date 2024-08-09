@@ -17,7 +17,7 @@ new_numbers = []
 
 numbers.length.times do
     number = numbers[index]
-    new_numbers.push(number + 5)
+    new_numbers.push(number + 5)   # how to push a number to an array
     index = index + 1
 end
 pp new_numbers

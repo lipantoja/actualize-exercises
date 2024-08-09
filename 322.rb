@@ -7,5 +7,11 @@ dogs = [
 ]
 
 # push it into a new array push the name of the dogs into a new array (look at exercise 243.rb & 233.rb)
-  
 
+name_dog = []
+index = 0
+while index < 3
+  name_dog << dogs[index][:name]
+  index = index + 1
+end
+pp name_dog 
