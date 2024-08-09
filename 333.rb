@@ -1,5 +1,3 @@
-# ------ WIP ---------
-
 # QUESTION 1
 # Create a program that asks the user to enter 5 numbers. 
 # Then, tell the user the mean average of all the numbers.
@@ -15,22 +13,26 @@
 
 # unsure if I should use a .times to get multiple inputs 
 # and while also adding it to the array
+numbers = []
+
 5.times do
     puts "Enter a number: "
-    numbers = [] << gets.to_i
+    numbers.push(gets.chomp.to_i)
 end
-puts numbers[] #needs to be printed as an array
+pp numbers #needs to be printed as an array
 
-#add all numbers in array together
-#found out you can also use nameOfArray.sum (will output sum of array)
+# add all numbers in array together
+# found out you can also use nameOfArray.sum (will output sum of array)
 index = 0
+sum_numbers = 0
 while index < numbers.length
-    sum_numbers = sum_numbers + numbers[]
-    index = index + 0
+    sum_numbers = sum_numbers + numbers[index]
+    index = index + 1
 end
 pp sum_numbers
 
-# better way to divide the sum by the amount of numbers? Do we account for 0?
-puts sum_numbers / numbers.length + 1
+# # better way to divide the sum by the amount of numbers? Do we account for 0?
+puts sum_numbers / numbers.length
+
 
 
