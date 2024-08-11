@@ -23,7 +23,9 @@ roman_numerals = [
 user_input = 10
 
 # Put the variable and the key in an .each method
-# roman_numerals.each do |key, value|
-    p roman_numerals[:1]
+roman_numerals.each do |numbers, numerals|
+    pp numbers
+    pp numberals
 end
+# Try to call a each key to match the user input value (might be a loop through keys?)
 # Test is we can be given a number and loop through 
