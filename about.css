@@ -1,0 +1,21 @@
+header {
+    color: aliceblue;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-hight: 1.2;
+    background-image: url("https://c8.alamy.com/comp/GD3KHY/clay-pot-shop-nasik-maharashtra-india-asia-GD3KHY.jpg")
+}
+body {
+    max-width: fit-content;
+    margin 0 auto;
+    line-height: 1;
+    padding: 5em 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2 {
+    margin-top: auto;
+    padding-top: 2em;
+    border: 0.3em rgb(174, 77, 48) solid;
+    padding-left: 7em;
+}
