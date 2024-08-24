@@ -12,13 +12,13 @@
 
 
 var numbers = [1, 2, 3, 4, 5]
-console.log(numbers(4))
+console.log(numbers[4]);
 
 var x = 11
 if (x < 10) {
     console.log(-1);
 } else if (x == 10){
-    console.log(0)
+    console.log(0);
 } else {
-    console.log(-1)
+    console.log(-1);
 }
